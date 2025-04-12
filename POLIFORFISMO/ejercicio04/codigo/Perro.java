@@ -8,6 +8,7 @@ public class Perro {
         this.edad = edad;
         this.raza = raza;
     }
+
     @Override
     public String toString() {
         return "Nombre: " + nombre + ", Edad: " + edad + ", Raza: " + raza;
@@ -21,7 +22,9 @@ public class Perro {
         System.out.println("El perro corre");
     }
 }
-public class Gato {
+
+// Clases NO PÚBLICAS (sin el modificador "public")
+class Gato {
     private String nombre;
     private String color;
 
@@ -43,7 +46,8 @@ public class Gato {
         System.out.println("El gato salta");
     }
 }
-public class Pajaro {
+
+class Pajaro {
     private String nombre;
     private String especie;
 
@@ -65,7 +69,8 @@ public class Pajaro {
         System.out.println("El pajaro vuela");
     }
 }
-public class Main { 
+
+class Main {
     public static void main(String[] args) {
         Perro perro = new Perro("Firulais", 5, "Labrador");
         Gato gato = new Gato("gorda", "Blanco");
