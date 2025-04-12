@@ -8,7 +8,6 @@ public class Perro {
         this.edad = edad;
         this.raza = raza;
     }
-
     @Override
     public String toString() {
         return "Nombre: " + nombre + ", Edad: " + edad + ", Raza: " + raza;
@@ -21,8 +20,52 @@ public class Perro {
     public void moverse() {
         System.out.println("El perro corre");
     }
+}
+public class Gato {
+    private String nombre;
+    private String color;
 
-    // Método main en la clase Perro
+    public Gato(String nombre, String color) {
+        this.nombre = nombre;
+        this.color = color;
+    }
+
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + ", Color: " + color;
+    }
+
+    public void hacerSonido() {
+        System.out.println("el " + nombre + " Miau");
+    }
+
+    public void moverse() {
+        System.out.println("El gato salta");
+    }
+}
+public class Pajaro {
+    private String nombre;
+    private String especie;
+
+    public Pajaro(String nombre, String especie) {
+        this.nombre = nombre;
+        this.especie = especie;
+    }
+
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + ", Especie: " + especie;
+    }
+
+    public void hacerSonido() {
+        System.out.println("el " + nombre + " Pío");
+    }
+
+    public void moverse() {
+        System.out.println("El pajaro vuela");
+    }
+}
+public class Main { 
     public static void main(String[] args) {
         Perro perro = new Perro("Firulais", 5, "Labrador");
         Gato gato = new Gato("gorda", "Blanco");
