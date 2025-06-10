@@ -1,0 +1,9 @@
+Farmacia Central,1,Av. Siempre Viva,123456
+Paracetamol,101,fiebre,3.5
+Mucosolvan,102,tos,5.0
+Golpex,103,tos,7.0
+---
+Farmacia Moderna,2,Calle Falsa 123,654321
+Ibuprofeno,104,dolor,4.0
+Golpex,105,tos,6.5
+---
